@@ -1,0 +1,20 @@
+{
+Basic_info = {
+name = "Packexample",
+version = "0.1-1",
+desc = "a example",
+packager = "cpm_sheep",
+license = "GPLv2",
+depends = {}
+},
+Extra_info = "自行填写",
+Directory= {},
+Files = {
+"bin/A.lua",
+"bin/B.lua"
+},
+Extra_Files = {}
+}
+
+注:写成lua中table的形式
+路径不要以"/"开头
